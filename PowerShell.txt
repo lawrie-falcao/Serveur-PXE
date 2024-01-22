@@ -1,0 +1,31 @@
+Extensions de fichiers PowerShell :
+- .ps1 : Script PowerShell
+- .ps1xml : Document XML décrivant la mise en forme des objets PowerShell lors de la sortie
+- .psc1 : Fichier de console PowerShell
+- .psd1 : Fichier de données PowerShell (utilisé pour stocker des données de configuration)
+- .psm1 : Module de script PowerShell
+- .pssc : Fichier de configuration de session PowerShell
+- .psrc : Fichier de capacité de rôle PowerShell
+- .cdxml : Document XML de définition de cmdlet PowerShell
+
+Différences avec Bash :
+- PowerShell est orienté objet, tandis que Bash est orienté texte.
+- PowerShell utilise des cmdlets (command-lets) qui sont des petites commandes spécialisées, tandis que Bash utilise des commandes simples.
+- PowerShell supporte le pipeline d'objets, ce qui signifie que la sortie d'une commande peut être directement utilisée comme entrée pour une autre commande.
+- PowerShell est plus intégré avec l'écosystème Windows.
+
+Exécution de scripts PowerShell sous Linux :
+- Oui, il est possible d'exécuter des scripts PowerShell sous Linux en utilisant PowerShell Core, une version open source de PowerShell. Il est conçu pour être multiplateforme et fonctionne sur des systèmes tels que Linux, macOS et Windows.
+
+PXE (Preboot eXecution Environment) :
+- PXE est un environnement d'exécution pré-amorçable qui permet aux ordinateurs de démarrer à partir du réseau. Il est largement utilisé pour installer des systèmes d'exploitation sur des machines sans nécessiter de supports physiques tels que des CD ou des clés USB.
+
+Pour mettre en place un serveur d'images PXE, vous avez besoin de :
+- Un serveur compatible PXE configuré pour fournir l'amorçage réseau.
+- Des images d'installation des systèmes d'exploitation que vous souhaitez déployer.
+
+Windows ADK (Windows Assessment and Deployment Kit) :
+- Windows ADK est un ensemble d'outils qui aide les professionnels de l'informatique à personnaliser, évaluer et déployer des systèmes d'exploitation Windows sur de nouveaux ordinateurs.
+
+WDS (Windows Deployment Services) :
+- WDS est un service de déploiement de Microsoft qui permet de déployer des systèmes d'exploitation Windows sur des ordinateurs via le réseau. Il utilise PXE pour amorcer les ordinateurs clients et les installer à partir de l'image d'installation stockée sur le serveur WDS.
